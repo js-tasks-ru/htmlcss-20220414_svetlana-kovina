@@ -1,1 +1,62 @@
 /* Стилизация кнопки */
+:root {
+    --text-color__white : #ffffff;
+    --text-color__black : #212429;
+
+}
+
+button {
+    border-radius: 20px;
+    width: 16em;
+}
+
+.button__primary {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+.button__primary:hover  {
+    background: var(--blue);
+    border-color: var(--blue);
+}
+
+.button__primary--disabled:disabled {
+    background: rgba(142, 175, 218, 0.8);
+}
+
+.button__secondary {
+    background-color: var(--light-purple);
+    color: var(--text-color__white);
+}
+
+.button__secondary:hover {
+    background-color: var(--purple);
+}
+
+.button__secondary--disabled:disabled {
+    background: rgba(201, 142, 201, 0.8);
+}
+
+.button__alternate {
+    background-color: var(--white);
+}
+
+.button__alternate:hover {
+    border-color: var(--black);
+}
+
+.button__alternate--disabled:disabled {
+    background: rgba(252, 252, 252, 0.979);
+}
+
+.button__primary--titel {
+    color: var(--text-color__white);
+}
+
+.button__secondary--titel {
+    color: var(--text-color__white);
+}
+
+.button__alternate--titel {
+    color: var(--text-color__black);
+}
