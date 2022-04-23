@@ -25,7 +25,6 @@ button {
 
 .button__secondary {
     background-color: var(--light-purple);
-    color: var(--text-color__white);
 }
 
 .button__secondary:hover {
