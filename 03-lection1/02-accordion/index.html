@@ -2,17 +2,41 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="/assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Звёздные Войны. Эпизод 1. Скрытая угроза
+                </summary>
+                <p class="accordion__item--text">
+                    Мы попадаем в то самое время, когда рыцари-джедаи еще хранят мир и спокойствие в Галактике. 
+                    Но темная сила, готовая поглотить планеты и народы, уже пробудилась, и только древнее пророчество джедаев об избранном,
+                     который принесет равновесие в Силу, дает надежду в преддверии катастрофы.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Звёздные войны. Эпизод II: Атака клонов
+                </summary>
+                <p class="accordion__item--text">
+                    Республика все глубже погружается в пучину противоречий и хаоса. 
+                    Движение сепаратистов, представленное сотнями планет и могущественным альянсом корпораций, 
+                    грозит стать новой угрозой для Галактики, с которой не смогут справиться даже джедаи.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Звёздные войны. Эпизод III: Месть ситхов
+                </summary>
+                <p class="accordion__item--text">
+                    Джедаи теряют контроль над галактикой, а Падме готовится к тому, чтобы стать матерью. 
+                    Все эти события будут разворачиваться на фоне грандиозной битвы, знаменующей финал Клонических войн…
+                </p>
+            </details>
+        </div>
     </body>
 </html>
