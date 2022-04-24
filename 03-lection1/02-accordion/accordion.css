@@ -29,8 +29,8 @@ details[open] {
 .accordion__summary::after {
     content: '^';
     padding-right: 0.5em;
-  }
+}
   
-  details[open] > .accordion__summary::after {
+details[open] > .accordion__summary::after {
     content: '˅';
-  }
+}
