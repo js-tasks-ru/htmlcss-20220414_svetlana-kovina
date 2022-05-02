@@ -1,0 +1,52 @@
+.skeleton {
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+.flex__container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.flex__box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-content: space-around;
+}
+
+.flex__element {
+    border: 1px solid gray;
+    background-color: rgb(226, 228, 228);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 5em;
+    flex-flow: column wrap;
+}
+
+.child_1 {
+    border-radius: 70px;
+}
+
+.child_2 {
+    flex-basis: 15em;
+    height: 30px;
+}
+
+.child_3 {
+    flex-basis: 36em;
+    height: 30px;
+}
+
+.child_4,
+.child_5 {
+    flex-basis: 36px;
+    width: 73em
+}
+
